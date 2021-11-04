@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "EASendMail/7.8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/EASendMail.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/EASendMail.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "dependencies": {
@@ -402,6 +411,33 @@
     }
   },
   "libraries": {
+    "EASendMail/7.8.0.1": {
+      "sha512": "PUVj/J+K4ms+vn87PrPC2lmfPRsu/0sCLU/uwnAw47TEriSXf4PcwoMOJt+U5jO/efzUtuK6xrEqsoB+wADJXw==",
+      "type": "package",
+      "path": "easendmail/7.8.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "easendmail.7.8.0.1.nupkg.sha512",
+        "easendmail.nuspec",
+        "lib/net20-cf/EASendMail.dll",
+        "lib/net20/EASendMail.dll",
+        "lib/net35-cf/EASendMail.dll",
+        "lib/net40/EASendMail.dll",
+        "lib/net45/EASendMail.dll",
+        "lib/net461/EASendMail.dll",
+        "lib/net5.0/EASendMail.deps.json",
+        "lib/net5.0/EASendMail.dll",
+        "lib/netcoreapp3.1/EASendMail.deps.json",
+        "lib/netcoreapp3.1/EASendMail.dll",
+        "lib/netstandard2.0/EASendMail.deps.json",
+        "lib/netstandard2.0/EASendMail.dll",
+        "lib/uap10.0/EASendMail.winmd",
+        "tools/init.ps1",
+        "tools/installed.dat"
+      ]
+    },
     "EntityFramework/6.4.4": {
       "sha512": "yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "type": "package",
@@ -1458,6 +1494,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "EASendMail >= 7.8.0.1",
       "SQLite >= 3.13.0",
       "System.Data.SQLite >= 1.0.115",
       "System.Data.SQLite.Core >= 1.0.115",
@@ -1504,6 +1541,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "EASendMail": {
+            "target": "Package",
+            "version": "[7.8.0.1, )"
+          },
           "SQLite": {
             "target": "Package",
             "version": "[3.13.0, )"

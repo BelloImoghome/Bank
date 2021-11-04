@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "EASendMail": {
+              "target": "Package",
+              "version": "[7.8.0.1, )"
+            },
             "SQLite": {
               "target": "Package",
               "version": "[3.13.0, )"

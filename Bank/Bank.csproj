@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EASendMail" Version="7.8.0.1" />
     <PackageReference Include="SQLite" Version="3.13.0" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.115" />
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.115" />

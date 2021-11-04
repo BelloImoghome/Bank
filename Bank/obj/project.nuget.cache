@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dU7cqcunqO+ZvSk3MzQ678Osrfbv4ZZfsAq/Ze2K+xHdGLTy/RYyntsldIHV5Xtzkk2xTp6Pu+kGU4elw98H4w==",
+  "dgSpecHash": "TARov9ex8SrBUvb5aZs/gvIHK42yPmsmhm1YWbMfp1WhrCK/M8hZ0rintEaumGb4K8tOLg7iTkFqiF0g/+6ApQ==",
   "success": true,
   "projectFilePath": "C:\\Solutions\\bank\\Bank\\Bank.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TEMP\\.nuget\\packages\\easendmail\\7.8.0.1\\easendmail.7.8.0.1.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
